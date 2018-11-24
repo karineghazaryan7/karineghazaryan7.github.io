@@ -1,0 +1,242 @@
+body{
+	background-color: #a48e8c69;
+	margin:10px;
+	padding: 10px;
+}
+
+header{
+	background-color: #17202A;
+	height: 70px;
+	width:98%;
+	color: white;
+	shape-margin: 100px;
+	position:fixed;
+	top:0;
+	 
+}
+
+#left-nav{
+	float: left;
+	border-radius: 50%;
+}
+
+#right-nav{
+	float: right;
+}
+#right-nav li:hover{
+transform:scale(1.2);
+}
+
+#right-nav li{
+	display: inline-block;
+	margin: 10px;
+	
+}
+#pic{
+        border-radius: 50%;
+        float: left;
+
+}
+#pic:hover{
+	transform: scale(1.5);
+}
+
+#left-nav li{
+	margin:10px;
+	transform:scale(1.3);
+	display: inline-block;
+}
+#left-nav li:hover{
+	transform:scale(1.2);
+}
+
+ul li{
+	list-style-type: none;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: Courier New, monospace;
+}
+
+.parallax2{
+	width: 100%;
+	height:500px;
+}
+
+.photo {
+	background-image: url("photo.jpg");
+	height: 60vh;
+	width:55%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	margin-right: 250px;
+	float:right;
+}
+
+
+.photo1{
+	float: right;
+	background-image: url("photo2.jpg");
+	height: 150px;
+	width: 150px;
+
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+.left{
+	background-color:black;
+	height: 70vh;
+	width:60%;
+	color: white;
+	font-family: Courier New, monospace;
+	text-align: center;
+	vertical-align: center;
+	line-height: 30px;
+	float: left;
+	margin-top: 10px;
+
+}
+.right{
+	height: 150vh;
+	width: 40%;
+	float: right;
+	margin-top:10px;
+	padding: none;
+}
+.parallax3{
+	height: 2400px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: Courier New, monospace;
+	line-height: 40px;
+
+}
+
+#education{
+	white-space: nowrap;
+	text-align: center;
+}
+
+.parallax4{
+	height:500px;
+	width: 100%;
+	background-color: #d0b3b0;
+	color: white;
+	text-align: center;
+	font-family: Courier New, monospace;
+
+}
+
+.text{
+	line-height:400px;
+	text-align: center;
+}
+
+.parallax5{
+	height:600px;
+	width: 100%;
+}
+
+.hobbies{
+	background-color:black;
+	height: 70vh;
+	width:60%;
+	color: white;
+	font-family: Courier New, monospace;
+	text-align: center;
+	vertical-align: center;
+	line-height: 30px;
+	float: left;
+	margin-top: 10px;
+
+}
+.chessphoto{
+	height: 150vh;
+	width: 40%;
+	float: right;
+	margin-top:10px;
+	padding: none;
+}
+
+.parallax6{
+	width: 100%;
+	height: 400px;
+	background-color:black;
+
+}
+#connect ul{
+	color: white;
+	font-family: Courier New, monospace;
+	margin-top:none;
+	text-align: center;
+	vertical-align: center;
+	line-height: 40px;
+	margin-left: 500px;
+}
+.icones{
+	height: 100px;
+	width: 100px;
+}
+.parallax9{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.fa:hover {
+    opacity: 0.7;
+    transform:scale(1.3);
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+    height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+
+footer{
+	clear: both;
+	background: black;
+	text-align: center;
+	padding: 15px;
+	color: white;
+	font-family: Courier New, monospace;
+
+}
+
+
+
+
+
+
+
+
+
